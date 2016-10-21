@@ -19,7 +19,7 @@ var api = new ParseServer({
   appId: process.env.APP_ID || 'UaKGxAaC7M2LQ9Ujtye7Rgm6PjkXcvbpeWTtoMrC',
   masterKey: process.env.MASTER_KEY || 'Hx2hHaGGQL6erebrWxVGfpv6fWaA494nF6KxKDPG', //Add your master key here. Keep it secret!
   serverURL: process.env.SERVER_URL || 'https://lvs-parse-server.herokuapp.com/parse',  // Don't forget to change to https if needed
-   javascriptKey: process.env.JAVASCRIPT_KEY || '',  //** add this line no need to set values, they will be overwritten by heroku config vars
+  javascriptKey: process.env.JAVASCRIPT_KEY || '',  //** add this line no need to set values, they will be overwritten by heroku config vars
   liveQuery: {
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
   }
